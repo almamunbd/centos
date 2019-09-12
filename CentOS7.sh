@@ -81,7 +81,7 @@ fi
 
 echo '>> Starting MySQL Installation >>'
 yum -y remove mariadb-libs
-yum -y install mariadb103-server postfix
+yum -y install mariadb103-server postfix unzip
 systemctl enable mariadb
 systemctl start mariadb
 echo '>> Securing MySQL Installation >>'
